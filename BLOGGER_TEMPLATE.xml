@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsversion='3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/schemas/blogger/v1.0' xmlns:data='http://www.google.com/schemas/blogger/v1.0' xmlns:expr='http://www.google.com/schemas/blogger/v1.0'>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:blog.pageTitle/></title>
+
+    <b:skin><![CDATA[
+      /*
+       * TrendVibe - Trendy Magazine Blogger Template
+       * Concepts: Grid, Hero Section, Dark Mode, Responsive
+       */
+      
+      :root {
+        --primary: #f27d26;
+        --dark: #121212;
+        --light: #f8f8f8;
+        --text: #1a1a1a;
+        --bg: #ffffff;
+      }
+
+      body {
+        font-family: 'Albert Sans', sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Header & Nav */
+      header {
+        border-bottom: 1px solid #eee;
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        background: rgba(255,255,255,0.8);
+        backdrop-filter: blur(10px);
+        z-index: 100;
+      }
+
+      .header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .logo span { color: var(--primary); }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      /* Hero Grid */
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        margin-top: 40px;
+      }
+
+      .featured-large {
+        grid-row: span 2;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+        background: #eee;
+      }
+
+      .hero-item {
+        position: relative;
+        overflow: hidden;
+        background: #ddd;
+      }
+
+      .hero-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* Main Content & Sidebar */
+      .main-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+        margin-top: 60px;
+      }
+
+      .post-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+
+      .sidebar-widget {
+        margin-bottom: 40px;
+      }
+
+      h2.section-title {
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+
+      /* Dark Mode Overrides */
+      body.dark {
+        --bg: var(--dark);
+        --text: var(--light);
+      }
+
+      @media (max-width: 768px) {
+        .hero-grid, .main-wrapper, .post-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    ]]></b:skin>
+  </head>
+  <body>
+    <header>
+      <div class='container header-flex'>
+        <div class='logo'>Trend<span>Vibe</span></div>
+        <nav>
+          <ul>
+            <li><a href='/'>Tech</a></li>
+            <li><a href='/'>Lifestyle</a></li>
+            <li><a href='/'>Design</a></li>
+          </ul>
+        </nav>
+        <div class='search-bar'>
+          <!-- Blogger Search Widget Code -->
+        </div>
+      </div>
+    </header>
+
+    <div class='container'>
+      <!-- Hero Section -->
+      <div class='hero-grid'>
+        <div class='featured-large'>
+          <b:section id='hero-featured' maxwidgets='1' showaddelement='yes'/>
+        </div>
+        <div class='hero-small'>
+          <b:section id='hero-side' maxwidgets='3' showaddelement='yes'/>
+        </div>
+      </div>
+
+      <div class='main-wrapper'>
+        <!-- Latest Posts -->
+        <main>
+          <h2 class='section-title'>Latest Articles</h2>
+          <b:section id='main' showaddelement='yes'>
+            <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/>
+          </b:section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside>
+          <h2 class='section-title'>Popular</h2>
+          <b:section id='sidebar' showaddelement='yes'>
+             <b:widget id='PopularPosts1' locked='false' title='Trending' type='PopularPosts'/>
+             <b:widget id='Label1' locked='false' title='Categories' type='Label'/>
+          </b:section>
+        </aside>
+      </div>
+    </div>
+
+    <footer>
+      <div class='container'>
+        <b:section id='footer' showaddelement='yes'/>
+        <p>© 2024 TrendVibe Blogger Template</p>
+      </div>
+    </footer>
+
+    <script>
+      // Toggle Dark Mode Logic
+      // Sticky header logic
+      // Infinite scroll logic
+    </script>
+  </body>
+</html>
