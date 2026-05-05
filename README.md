@@ -1,20 +1,108 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 📰 Trendy Magazine Blogger Template
 
-# Run and deploy your AI Studio app
+**Trendy Magazine** adalah template Blogger modern dengan gaya portal berita yang clean, cepat, dan responsif. Template ini dirancang untuk blog dengan konten dinamis seperti berita, artikel, lifestyle, teknologi, dan edukasi.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/05ef926a-7be8-4e83-910e-c1f9fe9e1a25
+## ✨ Konsep Utama
 
-## Run Locally
+Template ini mengusung konsep **Magazine Style Layout** yang mengutamakan keterbacaan, visual menarik, dan performa tinggi.
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 Fitur Utama
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 📐 Layout Grid Modern
+
+Menggunakan sistem grid seperti portal berita profesional untuk menampilkan konten secara rapi dan terstruktur.
+
+### 🌟 Featured Post (Highlight Utama)
+
+Menampilkan artikel unggulan berukuran besar di bagian atas halaman untuk menarik perhatian pembaca.
+
+### 🧩 Multi-Column Layout
+
+* 2 hingga 3 kolom fleksibel
+* Kombinasi konten utama dan sidebar
+* Cocok untuk berbagai jenis konten
+
+### 🖼️ Thumbnail Visual
+
+Setiap artikel dilengkapi thumbnail untuk meningkatkan daya tarik visual dan engagement.
+
+### 📱 Fully Responsive
+
+* Mobile friendly
+* Tampilan optimal di semua perangkat (desktop, tablet, smartphone)
+
+### ⚡ Fast Loading
+
+* Struktur ringan
+* Optimasi performa
+* Minim blocking script
+
+### 💤 Lazy Load Image
+
+Gambar dimuat hanya saat diperlukan untuk:
+
+* Mempercepat loading awal
+* Menghemat bandwidth
+
+---
+
+## 🎯 Tujuan Template
+
+* Memberikan pengalaman membaca yang nyaman
+* Meningkatkan performa blog
+* Menyajikan tampilan profesional seperti website berita besar
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* Blogger XML Template Engine
+* HTML5
+* CSS3 (Grid & Flexbox)
+* JavaScript (untuk interaktivitas & optimasi)
+
+---
+
+## 📌 Cocok Untuk
+
+* Blog berita
+* Majalah online
+* Blog pribadi profesional
+* Website konten niche (tech, lifestyle, edukasi, dll)
+
+---
+
+## 🔧 Status Pengembangan
+
+🚧 Dalam tahap pengembangan (base template)
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi terbuka untuk siapa saja.
+Silakan fork repository ini dan ajukan pull request.
+
+---
+
+## 📄 Lisensi
+
+Gunakan secara bebas untuk keperluan pribadi maupun komersial.
+(Silakan tambahkan lisensi sesuai kebutuhan, misalnya MIT License)
+
+---
+
+## 💡 Catatan
+
+Template ini masih berupa **base / starter**, sehingga sangat disarankan untuk:
+
+* Menambahkan fitur lanjutan (dark mode, infinite scroll, dll)
+* Melakukan kustomisasi desain sesuai kebutuhan
+
+---
+
+> Dibuat dengan fokus pada performa, estetika, dan fleksibilitas 🚀
