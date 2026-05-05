@@ -92,7 +92,6 @@ Silakan fork repository ini dan ajukan pull request.
 ## 📄 Lisensi
 
 Gunakan secara bebas untuk keperluan pribadi maupun komersial.
-(Silakan tambahkan lisensi sesuai kebutuhan, misalnya MIT License)
 
 ---
 
